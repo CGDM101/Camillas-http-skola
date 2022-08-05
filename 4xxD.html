@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Camillas Http-skola | 4xx</title>
     <script src="dogScript.js" defer></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>Camillas HTTP-skola</header>
-    <nav>
+    <header id="header">Camillas HTTP-skola</header>
+    <nav id="nav">
         <li><a href="index.html">Hem</a></li>
         <li><a href="1xxD.html">Informational 1xx</a></li>
         <li><a href="2xxD.html">Sucessful 2xx</a></li>
@@ -17,7 +18,7 @@
         <li><a href="4xxD.html">Client error 4xx</a></li>
         <li><a href="5xxD.html">Server error 5xx</a></li>
     </nav>
-    <main>
+    <main id="main">
         <button onclick="getMyDog(400)">400</button>
         <button onclick="getMyDog(401)">401</button>
         <button onclick="getMyDog(402)">402</button>
@@ -66,6 +67,6 @@
         <!-- 419, 428, 430, 440, 449, 460, 463, 464, 494, 495, 496 -->
         <img id="dogImage">
     </main>
-    <footer>Om mig?</footer>
+    <footer id="footer">Om mig?</footer>
 </body>
 </html>
